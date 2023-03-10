@@ -16,7 +16,7 @@
    final_model_data.csv is an output of workbook2 with categorical columns encoded as above as well as transformations/outlier triimming performed on the rest of the non-target data
    
    finally workbook 3 imports and models the 'basline model data' fitting a linear regression model as well as a k-nearest-neighbors model with the intent to predict the 'price' column from out dataset when given the values in all other columns. 
-   We will then check and score the acuracy of the models using a R_sq function. R_sq will measure the amount of the variation in the predicted values from the known 'price' values. An r_sq score of .71 can be taken as a 78% accuracy score. 
+   We will then check and score the acuracy of the models using a R_sq function. R_sq will measure the amount of the variation in the predicted values from the known 'price' values. An r_sq score of .71 can be taken as a 71% accuracy score. 
    
    We will then repeat the modeling on the 'final_model_data' which has been transformed and trimmed of outliers in an attempt at improving the accuracy of the model. 
    As they are all scored the same, all of the model results can be directly compared. 
